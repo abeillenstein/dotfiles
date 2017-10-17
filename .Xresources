@@ -1,0 +1,48 @@
+!!$HOME/.Xresources
+URxvt.preeditType:Root
+!!input
+URxvt.inputMethod:fcitx
+!!color
+URxvt.depth:32
+!!transparent adjust numbers in []
+!URxvt.inheritPixmap:true
+!URxvt.background:#000000
+URxvt.background:#101010
+!URxvt.foreground:#ffffff
+URxvt.foreground:Green
+URxvt.colorBD:Gray95
+URxvt.colorUL:Green
+URxvt.color1:Red2
+URxvt.color4:RoyalBlue
+URxvt.color5:Magenta2
+URxvt.color8:Gray50
+URxvt.color10:Green2
+URxvt.color12:DodgerBlue
+URxvt.color14:Cyan2
+URxvt.color15:Gray95
+!!URL
+URxvt.urlLauncher:chromium
+URxvt.matcher.button:1
+Urxvt.perl-ext-common:matcher
+!!scrollbar
+URxvt.scrollBar:False
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
+!!scrollscreen
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput:False
+URxvt.scrollWithBuffer:True
+URxvt.scrollTtyKeypress:True
+!!pointer
+URxvt.cursorBlink:True
+URxvt.saveLines:3000
+!!border
+URxvt.borderLess:False
+!!fonts
+Xft.dpi:96
+!URxvt.font:xft:mono:medium:pixelsize=12,xft:WenQuanYi Micro Hei:medium:pixelsize=12,xft:dejavusansmono\ for\ powerline:size=13:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13
+!URxvt.font:xft:mono:medium:size=12,xft:WenQuanYi Micro Hei:medium:size=12:antialias=true:hinting=true,xft:DejaVu Sans Mono for Powerline:size=11:antialias=true:hinting=true
+URxvt.font:xft:DejaVu Sans Mono for Powerline:size=11:antialias=true:hinting=true,xft:WenQuanYi Micro Hei:size=12:antialias=true:minspace=true
+URxvt.boldfont:xft:mono:size=12,xft:WenQuanYi Micro Hei:size=12
+URxvt.letterSpace:-2
+
